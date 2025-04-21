@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import io from "socket.io-client";
 import { UserData } from "./UserContext";
 
-const EndPoint = "https://mern-social-3e3m.onrender.com";
+const EndPoint = "https://social-media-app-mern-n9pc.onrender.com";
 
 const SocketContext = createContext();
 
